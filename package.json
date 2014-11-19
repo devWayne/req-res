@@ -1,23 +1,29 @@
 {
-  "name": "req-res",
-  "version": "0.0.1",
-  "description": "request & response",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devWayne/req-res.git"
-  },
-  "keywords": [
-    "request",
-    "response"
-  ],
-  "author": "vi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devWayne/req-res/issues"
-  },
-  "homepage": "https://github.com/devWayne/req-res"
+    "name": "req-res",
+    "version": "0.0.1",
+    "description": "request & response",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devWayne/req-res.git"
+    },
+    "keywords": [
+        "request",
+        "response"
+    ],
+    "author": "vi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devWayne/req-res/issues"
+    },
+    "homepage": "https://github.com/devWayne/req-res",
+    "dependencies": {
+        "lodash": "2.4.1"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    }
 }
